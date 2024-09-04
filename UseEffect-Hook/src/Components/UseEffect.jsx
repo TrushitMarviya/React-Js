@@ -6,12 +6,22 @@ export default function UseEffect() {
   return (
 <div>
 {
+  useEffect(()=>{
+    console.log("Hello world")
+  },[])
+}
+{
     useEffect(function () {
-    console.log("useEffect is running")
+    console.log("useEffect is running Now ")
 },[count])
 }
 <h1>{count}</h1>
 <button onClick={() => setCount(count + 1)}>Increment</button>
+{
+  useEffect(() => {
+    return console.log("Hello React")
+  },[count])
+}
 </div>
   )
 }
