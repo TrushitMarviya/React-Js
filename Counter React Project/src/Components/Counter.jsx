@@ -16,17 +16,20 @@ export default function Counter() {
     <div className='container'>
     <section className="cd-intro">
 		<h1 className="cd-headline push">
-			<span style={{color:"white"}}>Counter </span>
+			<span style={{color:"#ebebeb"}}>Counter </span>
 			<span className="cd-words-wrapper">
-				<b className="is-visible" style={{color:"red"}}>App</b>
-				<b style={{color:"red"}}>Project</b>
+				<b className="is-visible" style={{color:"#dfb252"}}>App</b>
+				<b style={{color:"#dfb252"}}>Project</b>
 			</span>
 		</h1>
 	</section> 
-    <p className="counter">{count}</p>
+  <div className="con2">
+  <p className="counter">{count}</p>
     <button className="increase" onClick={increase} >+</button>
     <button className="decrease" onClick={decrease}>-</button>
     <button className="reset" onClick={reset}>0</button>
+
+  </div>
     </div>
   )
 }
