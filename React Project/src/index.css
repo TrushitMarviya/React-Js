@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sec1{
+    background-image: url(https://preview.colorlib.com/theme/leopet/img/banner_bg.png);
+    background-size: cover;
+}
+.bt-1{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.p-1{
+    font-size: 18px;
+}
+.bt-2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+}   
+.sec3{
+    background-image: url(https://preview.colorlib.com/theme/leopet/img/services_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.p-2{
+    font-size: 17px;
+}
+.footer{
+    background-image: url(https://preview.colorlib.com/theme/leopet/img/footer_bg.png);
+}
