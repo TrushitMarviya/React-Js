@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form1{
+    height: 600px;
+    width: 500px;
+    margin-left: 33%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input{
+    margin-top: 2%;
+    height: 35px;
+    width: 300px;
+    margin-left: 16%;
+    padding-left: 5px;
+}
+#btn-1{
+    height: 45px;
+    width: 180px;
+    margin-left: 30%;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px solid;
+    background-color: #fff;
+}
+#btn-1:hover{
+    background-color:wheat;
+    border: none;
+    transition-duration:0.5s;
+}
+#form2{
+    height: 650px;
+    width: 475px;
+    margin-top:-85px;
+    margin-left: 34%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#select1{
+    margin-top: 2%;
+    height: 35px;
+    width: 300px;
+    margin-left: 15%;
+    padding-left: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+#bt-2{
+    height: 40px;
+    width: 200px;
+    border: 2px solid ;
+    margin-left: 25%;
+}
+p{
+    margin-left: 15.5%;
+}
