@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+input{
+  height: 30px;
+  width: 250px;
+  font-size: 14px;
+}
+button{
+  height:40px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+}
+h1{
+  font-size: 25px;
+}
+table{
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid black;
+}
