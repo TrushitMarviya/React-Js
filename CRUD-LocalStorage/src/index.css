@@ -1,0 +1,42 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+input{
+  height: 30px;
+  width: 250px;
+  font-size: 14px;
+}
+button{
+  height:45px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  background-color: rgb(6, 6, 196);
+  color: aliceblue;
+  cursor: pointer;
+}
+h1{
+  font-size: 25px;
+}
+table{
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid black;
+}
+#edit{
+  height: 40px;
+  margin: 5px;
+  width: 80px;
+  color: white;
+  background-color: rgb(1, 160, 1);
+}
+#delete{
+  height: 40px;
+  margin: 5px;
+  width: 80px;
+  color: white;
+  background-color: rgb(214, 19, 19);
+}
