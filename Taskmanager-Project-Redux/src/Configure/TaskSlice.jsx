@@ -16,10 +16,10 @@ reducers :{
     state.Taskmanager.map((e)=>{
         if(e.id == action.payload.id){
             e.name = action.payload.name
-            e.age = action.payload.age
             e.email = action.payload.email
-            e.num = action.payload.num
+            e.gender = action.payload.gender
             e.task = action.payload.task
+            e.prio = action.payload.prio
     }else{
         e
     }

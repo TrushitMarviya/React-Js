@@ -18,11 +18,16 @@ td{
 input{
   height: 30px;
   width: 300px;
-  margin-left: 5%;
   padding-left: 10px;
   font-size: 15px;
-  position: relative;
-  left: -50px;
+
+}
+select{
+  height: 35px;
+  width: 320px;
+  padding-left: 10px;
+  font-size: 16px;
+  text-align: center;
 }
 #bt1{
   height: 45px;
@@ -57,4 +62,11 @@ input{
   cursor: pointer;
   position: relative;
   left: 20px;
+}
+label{
+  font-size: 20px;
+  position: relative;
+  padding-left: 10px;
+  top: -10px;
+  padding-right: 100px;
 }
