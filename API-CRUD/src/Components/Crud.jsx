@@ -16,11 +16,7 @@ export default function Axios() {
   };
   const addData = async () => {
     if (index == null) {
-      let addRes = await axios.post("http://localhost:5000/comments", {
-        id: String(data.length + 1),
-        name: name,
-        age: Number(age),
-      });
+      let addRes = await axios.post("http://localhost:5000/comments", {id: String(data.length + 1),name: name,age: Number(age),});
       if (addRes) {
         setData[{ ...data, addRes }];
         setName("");

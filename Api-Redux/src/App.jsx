@@ -5,8 +5,7 @@ import { store } from '../App/Store'
 import ApiRedux from './Redux/ApiRedux'
 
 export default function App() {
-  return (
-    <>
+  return (    <>
     <Provider store={store}>
       <ApiRedux/>
     </Provider>

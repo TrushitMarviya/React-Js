@@ -12,7 +12,7 @@ export const count = createSlice ({
         DeleteData:(state,action)=>{
         let data = state.Student.filter((e)=>e.id != action.payload)
         state.Student = data
-    },
+    },  
     UpdateData :(state , action)=>{
     state.Student.map((e)=>{
         if(e.id == action.payload.id){

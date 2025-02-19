@@ -10,7 +10,7 @@ export default function CRUD() {
     let Data = JSON.parse(localStorage.getItem("Record")) || []
     setRecord(Data)
   },[])
-
+  
   const handleAdd = () =>{
     let user = {id:record.length+1, name,sub,city}
     let oldRec = JSON.parse(localStorage.getItem("Record")) || []

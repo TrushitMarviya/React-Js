@@ -6,7 +6,7 @@ import { fetchapi } from '../../Configure/ApiSlice'
 export default function ApiRedux() {
     const dispatch = useDispatch()
     useEffect(()=>{
-        dispatch(fetchapi())
+        dispatch(fetchapi())    
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     const record = useSelector((state)=>{
